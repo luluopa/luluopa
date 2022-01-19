@@ -1,4 +1,4 @@
-### Hey there, I'm [Lucas Lima](https://github.com/luluopa) 👋
+### Hey there, I'm [Lucas Lima](https://www.linkedin.com/in/lucas-lima-61877a1a3/) 👋
 
 ```
  
