@@ -1,8 +1,10 @@
-# Hey there, Software Developer Here!👋
+# Hey there, I'm [Lucas Lima](https://www.linkedin.com/in/lucas-lima-61877a1a3/) 👋
 
 I am a software developer focused in creating web applications, also a little of mobile 
 
 <!-- Socials -->
+<a href="https://www.linkedin.com/in/lucas-lima-61877a1a3/"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" title="Linkedin" alt="Lucas Lima Linkedin account" width="20"/></a>
+&ensp;<a href="https://luluopa.showwcase.com/"><img src="https://www.showwcase.com/favicon.png" title="Showwcase" alt="Lucas Lima Showwcase profile" width="20"/></a>
 &ensp;<a href="https://github.com/luluopa"><img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" title="GitHub" alt="Lucas Lima GitHub profile" width="20"/></a>
 <br>
 
@@ -11,7 +13,9 @@ I am a software developer focused in creating web applications, also a little of
 DATA = {
     'languages':['python','java','javascript', 'c', 'c++'],
     'frameworks':['django','reactjs','react native'],
+    'name':'lucas lima',
     'email':'luluopa3@gmail.com',
+    'number':'55 11 973299866'
 }
 
 class Me:
