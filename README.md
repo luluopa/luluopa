@@ -20,11 +20,10 @@ I am a software developer and that is it.
 ```python
  
 DATA = {
-    'languages':['python','java','javascript', 'c', 'c++'],
-    'frameworks':['django','reactjs','react native'],
+    'languages':['python','java','javascript', 'typescript', 'c', 'c++'],
+    'frameworks':['django','reactjs','react native', 'express', 'sequelize'],
     'name':'lucas lima',
-    'email':'luluopa3@gmail.com',
-    'number':'55 11 973299866'
+    'email':'luluopa3@gmail.com'
 }
 
 class Me:
