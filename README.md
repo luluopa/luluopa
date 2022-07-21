@@ -13,7 +13,9 @@ I am a software developer and that is it.
 <h3>Most used languages</h3>
 <p>
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=luluopa&show_icons=true&locale=en&layout=compact" alt="luluopa" /></p>
-<p>&nbsp;
+<p></p>
+<p>
+&nbsp;
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=luluopa&show_icons=true&locale=en" alt="luluopa" />
 </p>
 
