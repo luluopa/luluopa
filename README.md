@@ -1,6 +1,6 @@
 # Hey there, I'm [Lucas Lima](https://www.linkedin.com/in/lucas-lima-61877a1a3/) 👋
 
-I am a software developer focused in creating web applications, also a little of mobile 
+I am a software developer and that is it. 
 
 <!-- Socials -->
 <a href="https://www.linkedin.com/in/lucas-lima-61877a1a3/"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" title="Linkedin" alt="Lucas Lima Linkedin account" width="20"/></a>
@@ -71,18 +71,3 @@ if __name__ == '__main__':
     main()
 
 ```
-
-<!--
-**luluopa/luluopa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
