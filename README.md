@@ -29,7 +29,6 @@ DATA = {
 class Me:
     def __init__(self, *args, **kwargs):
         self.name = kwargs.get('name')
-        self.number = kwargs.get('number')
         self.email = kwargs.get('email')
         self.languages = kwargs.get('languages')
         self.frameworks = kwargs.get('frameworks')
@@ -54,9 +53,8 @@ class Me:
 
 def main():
     me = Me(
-            name=DATA['name'], number=DATA['number'], 
-            email=DATA['email'], languages=DATA['languages'],
-            frameworks=DATA['frameworks']
+            name=DATA['name'], email=DATA['email'],
+      		languages=DATA['languages'], frameworks=DATA['frameworks']
             )
     
     print(me)
