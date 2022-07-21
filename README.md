@@ -10,6 +10,13 @@ I am a software developer focused in creating web applications, also a little of
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=luluopa" alt="luluopa" /></a> </p>
 
+<h3>Most used languages</h3>
+<p>
+<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=luluopa&show_icons=true&locale=en&layout=compact" alt="luluopa" /></p>
+<p>&nbsp;
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=luluopa&show_icons=true&locale=en" alt="luluopa" />
+</p>
+
 ```python
  
 DATA = {
