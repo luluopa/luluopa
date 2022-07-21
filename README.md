@@ -8,6 +8,8 @@ I am a software developer focused in creating web applications, also a little of
 &ensp;<a href="https://github.com/luluopa"><img src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg" title="GitHub" alt="Lucas Lima GitHub profile" width="20"/></a>
 <br>
 
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=luluopa" alt="luluopa" /></a> </p>
+
 ```python
  
 DATA = {
