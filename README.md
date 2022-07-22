@@ -1,6 +1,5 @@
-# Hey there, I'm [Lucas Lima](https://www.linkedin.com/in/lucas-lima-61877a1a3/) 👋
-
-I am a software developer and that is it. 
+# Hey there, I'm Lucas 👋
+A software developer and that is it. 
 
 <!-- Socials -->
 <a href="https://www.linkedin.com/in/lucas-lima-61877a1a3/"><img src="https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg" title="Linkedin" alt="Lucas Lima Linkedin account" width="20"/></a>
