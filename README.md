@@ -57,7 +57,7 @@ class Me:
 def main():
     me = Me(
             name=DATA['name'], email=DATA['email'],
-      		    languages=DATA['languages'], frameworks=DATA['frameworks']
+     languages=DATA['languages'], frameworks=DATA['frameworks']
          )
     
     print(me)
