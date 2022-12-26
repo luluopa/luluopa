@@ -44,7 +44,7 @@ class Me:
         return result
 
     def get_allFrameworks_i_know(self):
-        return self.split_list_and_send_a_string_with_all_content(self.frameworks)
+        return self.split_list_and_send_a_string_with_all_content(self.stack)
 
     def get_allLanguages_i_know(self):
         return self.split_list_and_send_a_string_with_all_content(self.languages)
@@ -53,7 +53,7 @@ class Me:
         return self.name
 
 def main():
-    me = Me(name=DATA['name'], languages=DATA['languages'], frameworks=DATA['stack'])
+    me = Me(name=DATA['name'], languages=DATA['languages'], stack=DATA['stack'])
     
     print(me)
     print('--------------------------------')
