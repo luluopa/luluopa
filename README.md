@@ -32,16 +32,14 @@ DATA = {
 class Me:
     def __init__(self, *args, **kwargs):
         self.name = kwargs.get('name')
-        self.email = kwargs.get('email')
         self.languages = kwargs.get('languages')
-        self.frameworks = kwargs.get('frameworks')
+        self.stack = kwargs.get('stack')
     
     def split_list_and_send_a_string_with_all_content(self, objs):
         result = str()
 
         for obj in objs:
-            result += obj
-            result += ' '
+            result += (obj + ' ')
 
         return result
 
@@ -55,10 +53,7 @@ class Me:
         return self.name
 
 def main():
-    me = Me(
-            name=DATA['name'], email=DATA['email'],
-     languages=DATA['languages'], frameworks=DATA['frameworks']
-         )
+    me = Me(name=DATA['name'], languages=DATA['languages'], frameworks=DATA['stack'])
     
     print(me)
     print('--------------------------------')
