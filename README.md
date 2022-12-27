@@ -23,43 +23,48 @@ A software developer and that is it.
 
 ```python
  
-DATA = {
+from typing import Optional
+
+DATA = dict({
     'languages':['python','java','javascript', 'typescript', 'c', 'c++'],
     'stack':['django','reactjs','react native', 'express', 'sequelize','docker'],
     'name':'Lucas Lima',
-}
+})
 
 class Me:
-    def __init__(self, *args, **kwargs):
+    def __init__(self, *args, **kwargs) -> None:
         self.name = kwargs.get('name')
         self.languages = kwargs.get('languages')
         self.stack = kwargs.get('stack')
-    
-    def split_list_and_send_a_string_with_all_content(self, objs):
-        result = str()
 
-        for obj in objs:
-            result += (obj + ' ')
+    def get_frameworks_i_know(self) -> str:
+        return concat_all_list_objects_into_str(self.stack)
 
-        return result
+    def get_languages_i_know(self) -> str:
+        return concat_all_list_objects_into_str(self.languages)
 
-    def get_allFrameworks_i_know(self):
-        return self.split_list_and_send_a_string_with_all_content(self.stack)
-
-    def get_allLanguages_i_know(self):
-        return self.split_list_and_send_a_string_with_all_content(self.languages)
-
-    def __str__(self):
+    def __str__(self) -> str:
         return self.name
 
-def main():
+def concat_all_list_objects_into_str(objs) -> Optional[str]:
+    string_with_all_objects = str()
+
+    try:
+        for obj in objs:
+            string_with_all_objects += (obj + ' ')
+    except TypeError:
+        raise Exception('A valid string should be provided')
+
+    return string_with_all_objects
+
+def main() -> None:
     me = Me(name=DATA['name'], languages=DATA['languages'], stack=DATA['stack'])
     
     print(me)
     print('--------------------------------')
-    print('languages i know: ', me.get_allLanguages_i_know())
+    print('Languages I know:', me.get_languages_i_know())
     print('--------------------------------')
-    print('frameworks i know: ', me.get_allFrameworks_i_know())
+    print('Frameworks I know:', me.get_frameworks_i_know())
     print('--------------------------------')
 
 if __name__ == '__main__':
