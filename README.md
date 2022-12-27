@@ -60,7 +60,7 @@ def concat_all_list_objects_into_str(objs) -> Optional[str]:
         for obj in objs:
             string_with_all_objects += (obj + ' ')
     except TypeError:
-        raise Exception('A valid string should be provided')
+        raise Exception('A valid string list should be provided')
 
     return string_with_all_objects
 
