@@ -26,8 +26,16 @@ A software developer and that is it.
 from typing import Optional
 
 DATA = dict({
-    'languages':['python','java','javascript', 'typescript', 'c', 'c++'],
-    'stack':['django','reactjs','react native', 'express', 'sequelize','docker'],
+    'languages':[
+        'python', 'java',
+        'javascript', 'typescript',
+        'c', 'c++'
+    ],
+    'stack':[
+        'django', 'reactjs',
+        'react native', 'express', 
+        'sequelize', 'docker'
+    ],
     'name':'Lucas Lima',
 })
 
@@ -58,7 +66,11 @@ def concat_all_list_objects_into_str(objs) -> Optional[str]:
     return string_with_all_objects
 
 def main() -> None:
-    me = Me(name=DATA['name'], languages=DATA['languages'], stack=DATA['stack'])
+    me = Me(
+        name=DATA['name'], 
+        languages=DATA['languages'], 
+        stack=DATA['stack']
+    )
     
     print(me)
     print('--------------------------------')
